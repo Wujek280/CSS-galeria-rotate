@@ -11,6 +11,7 @@ body {
     color: #303030;
     padding: 150px;
     font-size: 0;
+    background-color: lightgray;
 }
 
 h3 {
@@ -20,7 +21,7 @@ h3 {
 }
 
 .box{
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     width: 300px;
     height: 300px;
     position: relative;
@@ -29,8 +30,8 @@ h3 {
 }
 
 figure,figcaption {
-    display: inline-block;
     position: absolute;
+    margin: 0;
 }
 
 .front,
@@ -42,8 +43,10 @@ figure,figcaption {
     width: 100%;
     height: 100%;
     transform-origin: 150px;
-    border: 1px solid red;
+/*    border: 1px solid red;*/
     color: #303030;
+    background-color: lightblue;
+
 }
 
 .front {
