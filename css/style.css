@@ -18,6 +18,7 @@ h3 {
     margin: 20px;
     text-transform: uppercase;
     color: #303030;
+    text-align: center;
 }
 
 .box{
@@ -68,3 +69,4 @@ figure,figcaption {
     transform: scaleX(1);
     opacity: 1;
   }
+

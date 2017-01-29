@@ -1,0 +1,15 @@
+.loading {
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    position:absolute;
+    text-align: center;
+    transform-origin: 49% 48%;
+}
+
+@keyframes loading {
+    0%{transform: rotate(0deg);}
+    95%{transform: rotate(345deg);}
+    100%{transform: rotate(360deg);}
+
+}
